@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel Heroes</title>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container d-flex justify-content-between">
+        <h1 class="bangers text-white m-0 align-self-center">Marvel Heroes</h1>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="d-none d-lg-block">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#heroes">Heroes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      class="hero-bg d-flex align-items-center justify-content-center text-center"
+    >
+      <div class="container">
+        <h1>Discover Your Favorite Marvel Heroes</h1>
+        <p class="mt-3">
+          Explore the universe of Marvel heroes and learn more about your
+          favorite characters
+        </p>
+        <a href="#heroes" class="btn btn-warning btn-lg mt-4"
+          >Meet the Heroes</a
+        >
+      </div>
+    </section>
+
+    <!-- Heroes Section -->
+    <section id="heroes" class="py-5">
+      <div class="container text-center">
+        <h2 class="mb-4">Our Marvel Heroes</h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1521078803539-2c9c00a2a32d"
+                class="card-img-top"
+                alt="Spider-Man"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Spider-Man</h5>
+                <p class="card-text">
+                  A hero with the abilities of a spider, protecting New York
+                  City from criminals and villains.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1607772842295-5e96b9ffbba5"
+                class="card-img-top"
+                alt="Iron Man"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Iron Man</h5>
+                <p class="card-text">
+                  Genius billionaire Tony Stark dons his powerful armor to save
+                  the world from destruction.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1599566150163-29194dcaad36"
+                class="card-img-top"
+                alt="Captain America"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Captain America</h5>
+                <p class="card-text">
+                  The first Avenger, a super soldier with unbreakable will and
+                  unmatched leadership skills.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container text-center">
+        <h2>About Us</h2>
+        <p>
+          We are dedicated to bringing you the latest updates and information
+          about your favorite Marvel superheroes.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container text-center">
+        <h2>Contact Us</h2>
+        <p>
+          If you have any questions, feel free to reach out to us through our
+          social media channels or email.
+        </p>
+        <a href="mailto:contact@marvelheroes.com" class="btn btn-primary"
+          >Send an Email</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <div class="container">
+        <p>&copy; 2024 Marvel Heroes | <a href="#">Privacy Policy</a></p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
